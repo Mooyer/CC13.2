@@ -1,0 +1,86 @@
+<%-- License
+// Copyright (c) 2013, MatrixPACS Inc.
+// All rights reserved.
+// http://www.MatrixPACS.ca
+//
+// This file is part of the MatrixPACS RIS/PACS open source project.
+//
+// The MatrixPACS RIS/PACS open source project is free software: you can
+// redistribute it and/or modify it under the terms of the GNU General Public
+// License as published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// The MatrixPACS RIS/PACS open source project is distributed in the hope that it
+// will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+// Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// the MatrixPACS RIS/PACS open source project.  If not, see
+// <http://www.gnu.org/licenses/>.
+--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" Codebehind="ErrorPageMaster.master.cs"
+    Inherits="MatrixPACS.ImageServer.Web.Application.Pages.Error.ErrorPageMaster" %>
+
+
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link id="Link1" rel="shortcut icon" type="image/ico" runat="server" href="~/Images/favicon.ico" />
+<script type="text/javascript">
+function toggleLayer( whichLayer )
+{
+  var elem, vis;
+  if( document.getElementById ) // this is the way the standards work
+    elem = document.getElementById( whichLayer );
+  else if( document.all ) // this is the way old msie versions work
+      elem = document.all[whichLayer];
+  else if( document.layers ) // this is the way nn4 works
+    elem = document.layers[whichLayer];
+  vis = elem.style;
+  // if the style.display value is blank we try to figure it out here
+  if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+    vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
+  vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+}
+</script>
+
+<style type="text/css">
+div#StackTrace
+{
+  display: none;
+}
+</style>
+</head>
+<body class="ErrorBody">
+    <form runat="server">
+        <center>
+        <asp:Panel runat="server" CssClass="ErrorPanel">
+        <asp:Table ID="Table1" runat="server" HorizontalAlign="Center" CssClass="ErrorTable">
+            <asp:TableRow>
+                <asp:TableCell HorizontalAlign="left">
+                    <asp:Image ID="Image1" SkinID="<%$Image:ImageServerLogo%>" runat="server" />
+                    <div class="ErrorMessage">
+                        <asp:ContentPlaceHolder ID="ErrorMessagePlaceHolder" runat="server" />
+                    </div>
+                    <div class="Description">                     
+                        <asp:ContentPlaceHolder ID="DescriptionPlaceHolder" runat="server" />                      
+
+                        <p><%= String.Format(SR.ForFurtherAssistanceTryTheFollowingLinks, "http://MatrixPACS.ca/Support/Howtogetsupport/tabid/549/Default.aspx")%></p>
+		            </div>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
+		            <asp:ContentPlaceHolder ID="UserEscapePlaceHolder" runat="server" />
+                </asp:TableCell>
+            </asp:TableRow>
+        </asp:Table>       
+        </asp:Panel>
+        </center>
+    </form>
+</body>
+</html>

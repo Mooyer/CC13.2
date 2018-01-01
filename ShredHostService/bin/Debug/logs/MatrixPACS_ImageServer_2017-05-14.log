@@ -1,0 +1,545 @@
+﻿2017-05-14 01:37:11,049 [42] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:11,061 [DicomServer: 127.0.0.1 Read [49]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:11,072 [27] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5891] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="43.55 msg/s" Speed="3.32 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:12,830 [13] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:12,831 [DicomServer: 127.0.0.1 Read [51]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:12,834 [25] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5892] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="262.16 msg/s" Speed="19.98 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:14,603 [58] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:14,604 [DicomServer: 127.0.0.1 Read [52]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:14,628 [27] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5893] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="40.58 msg/s" Speed="3.09 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:16,323 [43] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:16,330 [DicomServer: 127.0.0.1 Read [53]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:16,350 [42] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5894] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="37.58 msg/s" Speed="2.86 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:17,983 [58] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:17,992 [DicomServer: 127.0.0.1 Read [54]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:18,011 [46] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5895] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.81 msg/s" Speed="2.80 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:19,452 [13] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:19,453 [DicomServer: 127.0.0.1 Read [59]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:19,477 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5896] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="39.99 msg/s" Speed="3.05 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:20,934 [46] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:20,935 [DicomServer: 127.0.0.1 Read [60]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:20,940 [45] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5898] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="164.73 msg/s" Speed="12.56 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:22,633 [50] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:22,634 [DicomServer: 127.0.0.1 Read [61]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:22,659 [56] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5899] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.98 msg/s" Speed="2.82 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:23,963 [48] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:23,966 [DicomServer: 127.0.0.1 Read [62]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:23,991 [25] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5900] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.32 msg/s" Speed="2.77 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:25,712 [48] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:25,716 [DicomServer: 127.0.0.1 Read [63]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:25,718 [28] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5901] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="177.23 msg/s" Speed="13.51 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:27,545 [46] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:27,547 [DicomServer: 127.0.0.1 Read [64]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:27,574 [48] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5902] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="34.89 msg/s" Speed="2.66 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:29,035 [25] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:29,036 [DicomServer: 127.0.0.1 Read [65]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:29,043 [56] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5903] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="113.35 msg/s" Speed="8.64 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:32,411 [13] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:32,412 [DicomServer: 127.0.0.1 Read [51]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:32,438 [27] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5905] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.83 msg/s" Speed="2.81 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:37:34,609 [50] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:37:34,613 [DicomServer: 127.0.0.1 Read [49]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:37:34,633 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5906] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="39.78 msg/s" Speed="3.03 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:46:45,920 [67] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:46:45,926 [DicomServer: 127.0.0.1 Read [72]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:46:45,943 [14] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5974] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="42.61 msg/s" Speed="3.25 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:46:52,144 [67] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:46:52,151 [DicomServer: 127.0.0.1 Read [73]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:46:52,174 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5976] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="33.31 msg/s" Speed="2.54 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:46:53,908 [68] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:46:53,917 [DicomServer: 127.0.0.1 Read [61]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:46:53,921 [67] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5977] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="78.60 msg/s" Speed="5.99 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:46:55,488 [63] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:46:55,489 [DicomServer: 127.0.0.1 Read [64]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:46:55,512 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5978] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="40.62 msg/s" Speed="3.09 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:25,106 [65] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:25,115 [DicomServer: 127.0.0.1 Read [75]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:25,132 [69] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5984] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="39.48 msg/s" Speed="3.01 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:27,495 [74] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:27,506 [DicomServer: 127.0.0.1 Read [76]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:27,521 [63] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5985] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="38.20 msg/s" Speed="2.91 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:30,041 [55] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:30,042 [DicomServer: 127.0.0.1 Read [77]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:30,050 [65] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5988] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="99.58 msg/s" Speed="7.59 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:35,342 [69] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:35,350 [DicomServer: 127.0.0.1 Read [78]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:35,370 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5990] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.54 msg/s" Speed="2.78 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:37,254 [68] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:37,256 [DicomServer: 127.0.0.1 Read [77]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:37,263 [65] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5991] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="118.96 msg/s" Speed="9.07 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:39,289 [69] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:39,291 [DicomServer: 127.0.0.1 Read [76]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:39,318 [55] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5992] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="34.08 msg/s" Speed="2.60 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:42,950 [63] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:42,956 [DicomServer: 127.0.0.1 Read [75]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:42,976 [65] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5994] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="40.79 msg/s" Speed="3.11 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:44,555 [67] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:44,556 [DicomServer: 127.0.0.1 Read [64]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:44,582 [63] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5995] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.52 msg/s" Speed="2.78 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:45,906 [68] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:45,908 [DicomServer: 127.0.0.1 Read [61]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:45,934 [55] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5996] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="36.79 msg/s" Speed="2.80 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:47:47,745 [65] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:47:47,751 [DicomServer: 127.0.0.1 Read [73]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:47:47,771 [63] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:5997] to MatrixPACSAE [127.0.0.1:1040]" MessageRate="39.40 msg/s" Speed="3.00 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:03,553 [Main thread] INFO  - Starting Server Shred Host Service...
+2017-05-14 01:53:03,635 [Main thread] INFO  - Starting up in AppDomain [MatrixPACS.ImageServer.ShredHostService.exe]
+2017-05-14 01:53:04,228 [ArchivingServer] INFO  - MatrixPACS.ImageServer.Services.Archiving.Shreds.ArchivingShredExtension[MatrixPACS.ImageServer.ShredHostService.exe]: Start invoked
+2017-05-14 01:53:04,232 [Dicom Server] INFO  - MatrixPACS.ImageServer.Services.Dicom.Shreds.DicomServerExtension[MatrixPACS.ImageServer.ShredHostService.exe]: Start invoked
+2017-05-14 01:53:04,234 [ServiceLock Server] INFO  - MatrixPACS.ImageServer.Services.ServiceLock.Shreds.ServiceLockServerExtension[MatrixPACS.ImageServer.ShredHostService.exe]: Start invoked
+2017-05-14 01:53:04,237 [DICOM Import Server] INFO  - Starting DICOM Import Server using basic Http binding
+2017-05-14 01:53:04,241 [Study header Streaming Server] INFO  - Starting Study header Streaming Server using basic Http binding
+2017-05-14 01:53:04,250 [Image Streaming Server] INFO  - Started listening at http://+:1000/wado/
+2017-05-14 01:53:04,250 [Work Queue Server] INFO  - MatrixPACS.ImageServer.Services.WorkQueue.Shreds.WorkQueueServerExtension[MatrixPACS.ImageServer.ShredHostService.exe]: Start invoked
+2017-05-14 01:53:04,271 [DICOM Import Server] INFO  - Starting WCF Shred DicomImportService...
+2017-05-14 01:53:04,273 [Study header Streaming Server] INFO  - Starting WCF Shred HeaderStreaming...
+2017-05-14 01:53:04,301 [Image Streaming Server] INFO  - Starting HttpListener in asynchronous mode.
+2017-05-14 01:53:04,324 [DICOM Import Server] INFO  - unable to load binding configuration BasicHttpBinding_IDicomImportService; using default binding configuration
+2017-05-14 01:53:04,386 [Remote ImageServer Services Server] INFO  - Mounting IProductVerificationService on URI http://localhost:9998/MatrixPACS.ImageServer.Common.ServiceModel.IProductVerificationService
+2017-05-14 01:53:04,394 [Study header Streaming Server] INFO  - WCF Shred HeaderStreaming is listening at http://localhost:50221/HeaderStreaming/HeaderStreaming.
+2017-05-14 01:53:04,394 [DICOM Import Server] INFO  - WCF Shred DicomImportService is listening at http://localhost:50221/DicomImportService/DicomImportService.
+2017-05-14 01:53:04,407 [Remote ImageServer Services Server] INFO  - Mounting IAlertService on URI http://localhost:9998/MatrixPACS.ImageServer.Common.ServiceModel.IAlertService
+2017-05-14 01:53:04,421 [Remote ImageServer Services Server] INFO  - Mounting IFilesystemService on URI http://localhost:9998/MatrixPACS.ImageServer.Common.ServiceModel.IFilesystemService
+2017-05-14 01:53:04,443 [DICOM Service Manager:18] INFO  - Starting ServerPartition listener MatrixPACSAE:6688
+2017-05-14 01:53:04,469 [ServiceLock:19] INFO  - ServiceLock Processor is running
+2017-05-14 01:53:04,545 [ServiceLock Pool:35] INFO  - Filesystem Status:
+	Primary Filesystem : Enabled | Online | Readable | Writable | 21.71 GB Available
+
+2017-05-14 01:53:04,593 [WorkQueue:20] INFO  - Work Queue Processor running...
+2017-05-14 01:53:04,618 [ServiceLock Pool:34] INFO  - Checking for Alert logs to purge to: Primary Filesystem
+2017-05-14 01:53:04,619 [ServiceLock Pool:35] INFO  - Checking for logs to archive to: Primary Filesystem
+2017-05-14 01:53:04,660 [DICOM Service Manager:18] INFO  - Starting to listen with AE MatrixPACSAE on port 0.0.0.0:6688
+2017-05-14 01:53:04,713 [ServiceLock Pool:35] INFO  - Starting archival of ApplicationLog logs for 2017年5月12日
+2017-05-14 01:53:04,715 [29] ERROR - Streaming Error: 400  Study not found: 28282
+2017-05-14 01:53:04,718 [ServiceLock Pool:34] INFO  - Completed archival of Alert logs, rescheduling log archive for 0:01:00
+2017-05-14 01:53:04,725 [ServiceLock Pool:34] INFO  - Starting check for studies to lossy compress on filesystem 'Primary Filesystem'.
+2017-05-14 01:53:04,743 [ServiceLock Pool:34] INFO  - No eligible candidates to lossy compress from filesystem 'Primary Filesystem'.  Next scheduled filesystem check 2017-05-14 2:53:04
+2017-05-14 01:53:04,761 [ServiceLock Pool:34] INFO  - Starting check for studies to lossless compress on filesystem 'Primary Filesystem'.
+2017-05-14 01:53:04,764 [ServiceLock Pool:34] INFO  - No eligible candidates to lossless compress from filesystem 'Primary Filesystem'.  Next scheduled filesystem check 2017-05-14 2:53:04
+2017-05-14 01:53:04,814 [ServiceLock Pool:35] INFO  - Flushing log of ApplicationLog for 2017年5月12日
+2017-05-14 01:53:04,933 [ServiceLock Pool:35] INFO  - Completed archival of logs, rescheduling log archive for 0:01:00
+2017-05-14 01:53:29,041 [25] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:29,179 [DicomServer: 127.0.0.1 Read [30]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:29,199 [24] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6056] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="6.52 msg/s" Speed="509 bytes/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:31,267 [22] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:31,268 [DicomServer: 127.0.0.1 Read [45]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:31,293 [27] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6058] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="39.17 msg/s" Speed="2.98 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:32,931 [24] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:32,938 [DicomServer: 127.0.0.1 Read [46]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:32,940 [22] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6059] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="117.84 msg/s" Speed="8.98 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:34,604 [27] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:34,608 [DicomServer: 127.0.0.1 Read [47]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:34,634 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6061] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="33.47 msg/s" Speed="2.55 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:36,287 [27] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:36,297 [DicomServer: 127.0.0.1 Read [48]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:36,314 [26] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6062] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="36.59 msg/s" Speed="2.79 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:37,872 [22] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:37,877 [DicomServer: 127.0.0.1 Read [49]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:37,898 [23] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6063] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="38.84 msg/s" Speed="2.96 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:39,595 [24] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:39,599 [DicomServer: 127.0.0.1 Read [50]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:39,620 [22] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6064] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="39.21 msg/s" Speed="2.99 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:41,165 [24] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:41,173 [DicomServer: 127.0.0.1 Read [52]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:41,195 [26] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6066] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="33.07 msg/s" Speed="2.52 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:42,833 [28] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:42,837 [DicomServer: 127.0.0.1 Read [53]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:42,841 [51] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6067] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="121.05 msg/s" Speed="9.23 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:44,362 [24] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:44,366 [DicomServer: 127.0.0.1 Read [54]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:44,388 [25] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6068] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="38.54 msg/s" Speed="2.94 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:53:45,975 [24] INFO  - Received association:
+Application Context:     ==DICOM Application Context Name
+Implementation Class:    1.3.6.1.4.1.30071.6
+Implementation Version:  mDCM 0.9
+Local Maximum PDU Size:  116794
+Remote Maximum PDU Size: 15536
+Called AE Title:         MatrixPACSAE
+Calling AE Title:        wbinjie
+Presentation Contexts:   1
+	Presentation Context 1 [Accept] Abstract: Verification SOP Class	Transfer: Implicit VR Little Endian: Default Transfer Syntax for DICOM
+
+2017-05-14 01:53:45,978 [DicomServer: 127.0.0.1 Read [55]] INFO  - Received association release request from wbinjie to MatrixPACSAE.
+2017-05-14 01:53:46,004 [25] INFO  - <Statistics Type="TransmissionStatistics" Context="Transmission" Description="DICOM association from wbinjie [127.0.0.1:6069] to MatrixPACSAE [127.0.0.1:6688]" MessageRate="33.72 msg/s" Speed="2.57 KB/s" IncomingBytes="78 bytes" OutgoingBytes="78 bytes" IncomingMessages="1 msg" OutgoingMessages="1 msg" />
+2017-05-14 01:54:04,351 [24] INFO  - Checking manifest...
+2017-05-14 01:54:04,451 [24] WARN  - Manifest is broken!

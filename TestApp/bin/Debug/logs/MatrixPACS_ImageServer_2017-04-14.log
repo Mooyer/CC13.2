@@ -1,0 +1,115 @@
+﻿2017-04-14 22:20:10,745 [10] ERROR - Failed to process plugin assembly MatrixPACS.ImageServer.Core.dll with the following exception(s):
+2017-04-14 22:20:11,551 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:12,163 [10] ERROR - Failed to process plugin assembly MatrixPACS.ImageServer.Services.Common.dll with the following exception(s):
+2017-04-14 22:20:12,353 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:12,813 [10] ERROR - Failed to process plugin assembly MatrixPACS.ImageServer.Services.Streaming.dll with the following exception(s):
+2017-04-14 22:20:12,994 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:13,183 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:13,360 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:13,724 [10] ERROR - Failed to process plugin assembly MatrixPACS.ImageServer.Services.WorkQueue.dll with the following exception(s):
+2017-04-14 22:20:13,905 [10] ERROR - 未能加载文件或程序集“MatrixPACS.Server.ShredHost, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”或它的某一个依赖项。系统找不到指定的文件。
+2017-04-14 22:20:14,751 [10] ERROR - Exception thrown
+
+Exception when opening database connection for reading
+System.AggregateException: 发生一个或多个错误。 ---> System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   在 System.Threading.Tasks.Task.Wait(CancellationToken cancellationToken)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.PersistentStore.OpenConnection()
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.PersistentStore.OpenReadContext()
+---> (内部异常 #0) System.Data.SqlClient.SqlException (0x80131904): 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+ClientConnectionId:6afeaeb3-bd3a-406d-9d27-a4b5d9b4a8e7
+Error Number:18456,State:1,Class:14<---
+
+2017-04-14 22:22:04,092 [DicomClient: 117.158.207.237:6688 Read [15]] INFO  - Association Accepted from THANH-W8 to remote AE ningling:117.158.207.237:6688
+2017-04-14 22:22:05,012 [DicomClient: 117.158.207.237:6688 Read [15]] INFO  - Success status received in Find Scu!
+2017-04-14 22:22:05,106 [DicomClient: 117.158.207.237:6688 Read [15]] INFO  - Association released from THANH-W8 to ningling
+2017-04-14 22:22:06,946 [DicomClient: 117.158.207.237:6688 Read [15]] ERROR - Exception thrown
+
+
+System.InvalidOperationException: 线程间操作无效: 从不是创建控件“_queryResultGridView”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   在 System.Windows.Forms.Control.BeginUpdateInternal()
+   在 System.Windows.Forms.DataGridView.RefreshColumns()
+   在 System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   在 System.Windows.Forms.DataGridView.OnBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.set_BindingContextInternal(BindingContext value)
+   在 System.Windows.Forms.ContainerControl.set_BindingContext(BindingContext value)
+   在 System.Windows.Forms.ContainerControl.get_BindingContext()
+   在 System.Windows.Forms.Control.get_BindingContextInternal()
+   在 System.Windows.Forms.DataGridView.DataGridViewDataConnection.SetDataConnection(Object dataSource, String dataMember)
+   在 System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   在 MatrixPACS.ImageServer.TestApp.PerfCFind.CFindPerformanceTestForm.scu_AssociationReleased(Object sender, EventArgs e) 位置 f:\大连医卫\MatrixPACS0308\ImageServer\TestApp\PerfCFind\CFindPerformanceTestForm.cs:行号 79
+   在 MatrixPACS.Common.Utilities.EventsHelper.Fire[T](EventHandler`1 del, Object sender, T e) 位置 f:\大连医卫\MatrixPACS0308\Common\Utilities\EventsHelper.cs:行号 115
+2017-04-14 22:22:07,118 [DicomClient: 117.158.207.237:6688 Read [15]] ERROR - Exception thrown
+
+Unexpected User exception, description: Unexpected exception on OnReceiveReleaseResponse
+System.InvalidOperationException: 线程间操作无效: 从不是创建控件“_queryResultGridView”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   在 System.Windows.Forms.Control.BeginUpdateInternal()
+   在 System.Windows.Forms.DataGridView.RefreshColumns()
+   在 System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   在 System.Windows.Forms.DataGridView.OnBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.OnParentBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.OnBindingContextChanged(EventArgs e)
+   在 System.Windows.Forms.Control.set_BindingContextInternal(BindingContext value)
+   在 System.Windows.Forms.ContainerControl.set_BindingContext(BindingContext value)
+   在 System.Windows.Forms.ContainerControl.get_BindingContext()
+   在 System.Windows.Forms.Control.get_BindingContextInternal()
+   在 System.Windows.Forms.DataGridView.DataGridViewDataConnection.SetDataConnection(Object dataSource, String dataMember)
+   在 System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   在 MatrixPACS.ImageServer.TestApp.PerfCFind.CFindPerformanceTestForm.scu_AssociationReleased(Object sender, EventArgs e) 位置 f:\大连医卫\MatrixPACS0308\ImageServer\TestApp\PerfCFind\CFindPerformanceTestForm.cs:行号 79
+   在 MatrixPACS.Common.Utilities.EventsHelper.Fire[T](EventHandler`1 del, Object sender, T e) 位置 f:\大连医卫\MatrixPACS0308\Common\Utilities\EventsHelper.cs:行号 120
+   在 MatrixPACS.Dicom.Network.Scu.ScuBase.OnReceiveReleaseResponse(DicomClient client, ClientAssociationParameters association) 位置 f:\大连医卫\MatrixPACS0308\Dicom\Network\Scu\ScuBase.cs:行号 634
+   在 MatrixPACS.Dicom.Network.DicomClient.OnReceiveReleaseResponse() 位置 f:\大连医卫\MatrixPACS0308\Dicom\Network\DicomClient.cs:行号 423
+2017-04-14 22:22:11,361 [DicomClient: 117.158.207.237:6688 Read [18]] INFO  - Association Accepted from THANH-W8 to remote AE ningling:117.158.207.237:6688
+2017-04-14 22:22:12,157 [DicomClient: 117.158.207.237:6688 Read [18]] INFO  - Success status received in Find Scu!
+2017-04-14 22:22:12,219 [DicomClient: 117.158.207.237:6688 Read [18]] INFO  - Association released from THANH-W8 to ningling
+2017-04-14 22:22:15,090 [DicomClient: 117.158.207.237:6688 Read [18]] ERROR - Exception thrown
+
+
+System.InvalidOperationException: 线程间操作无效: 从不是创建控件“_queryResultGridView”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   在 System.Windows.Forms.Control.BeginUpdateInternal()
+   在 System.Windows.Forms.DataGridView.RefreshColumns()
+   在 System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   在 System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   在 System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   在 MatrixPACS.ImageServer.TestApp.PerfCFind.CFindPerformanceTestForm.scu_AssociationReleased(Object sender, EventArgs e) 位置 f:\大连医卫\MatrixPACS0308\ImageServer\TestApp\PerfCFind\CFindPerformanceTestForm.cs:行号 79
+   在 MatrixPACS.Common.Utilities.EventsHelper.Fire[T](EventHandler`1 del, Object sender, T e) 位置 f:\大连医卫\MatrixPACS0308\Common\Utilities\EventsHelper.cs:行号 115
+2017-04-14 22:22:15,246 [DicomClient: 117.158.207.237:6688 Read [18]] ERROR - Exception thrown
+
+Unexpected User exception, description: Unexpected exception on OnReceiveReleaseResponse
+System.InvalidOperationException: 线程间操作无效: 从不是创建控件“_queryResultGridView”的线程访问它。
+   在 System.Windows.Forms.Control.get_Handle()
+   在 System.Windows.Forms.Control.SendMessage(Int32 msg, Int32 wparam, Int32 lparam)
+   在 System.Windows.Forms.Control.BeginUpdateInternal()
+   在 System.Windows.Forms.DataGridView.RefreshColumns()
+   在 System.Windows.Forms.DataGridView.RefreshColumnsAndRows()
+   在 System.Windows.Forms.DataGridView.OnDataSourceChanged(EventArgs e)
+   在 System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   在 MatrixPACS.ImageServer.TestApp.PerfCFind.CFindPerformanceTestForm.scu_AssociationReleased(Object sender, EventArgs e) 位置 f:\大连医卫\MatrixPACS0308\ImageServer\TestApp\PerfCFind\CFindPerformanceTestForm.cs:行号 79
+   在 MatrixPACS.Common.Utilities.EventsHelper.Fire[T](EventHandler`1 del, Object sender, T e) 位置 f:\大连医卫\MatrixPACS0308\Common\Utilities\EventsHelper.cs:行号 120
+   在 MatrixPACS.Dicom.Network.Scu.ScuBase.OnReceiveReleaseResponse(DicomClient client, ClientAssociationParameters association) 位置 f:\大连医卫\MatrixPACS0308\Dicom\Network\Scu\ScuBase.cs:行号 634
+   在 MatrixPACS.Dicom.Network.DicomClient.OnReceiveReleaseResponse() 位置 f:\大连医卫\MatrixPACS0308\Dicom\Network\DicomClient.cs:行号 423
+2017-04-14 22:22:15,433 [DicomClient: 117.158.207.237:6688 Read [18]] WARN  - 

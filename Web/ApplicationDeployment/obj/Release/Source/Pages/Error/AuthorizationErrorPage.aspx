@@ -1,0 +1,50 @@
+<%--  License
+
+// Copyright (c) 2013, MatrixPACS Inc.
+// All rights reserved.
+// http://www.MatrixPACS.ca
+//
+// This file is part of the MatrixPACS RIS/PACS open source project.
+//
+// The MatrixPACS RIS/PACS open source project is free software: you can
+// redistribute it and/or modify it under the terms of the GNU General Public
+// License as published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// The MatrixPACS RIS/PACS open source project is distributed in the hope that it
+// will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+// Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// the MatrixPACS RIS/PACS open source project.  If not, see
+// <http://www.gnu.org/licenses/>.
+
+--%>
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AuthorizationErrorPage.aspx.cs" MasterPageFile="ErrorPageMaster.Master" Inherits="MatrixPACS.ImageServer.Web.Application.Pages.Error.AuthorizationErrorPage" %>
+
+<asp:Content runat="server" ContentPlaceHolderID="ErrorMessagePlaceHolder">
+	    <asp:label ID="ErrorMessageLabel" runat="server">
+	    </asp:label>
+</asp:Content>
+
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="DescriptionPlaceHolder">
+
+    <asp:Label ID = "DescriptionLabel" runat="server"></asp:Label>
+    
+    <div ID="StackTraceMessage" runat="server" Visible="false" onclick="javascript:toggleLayer('StackTrace');" style="margin-top:20px">
+                <%= HtmlUtility.Encode(ErrorMessages.ErrorShowStackTraceMessage)%>
+        </div>
+    <div id="StackTrace" style="margin-top: 15px" visible="false">
+        <asp:TextBox runat="server" ID="StackTraceTextBox" Visible="false" Rows="5" Width="90%" TextMode="MultiLine" ReadOnly="true"></asp:TextBox>
+    </div>
+</asp:Content>
+
+<asp:Content runat="server" ContentPlaceHolderID="UserEscapePlaceHolder">
+    <table width="100%" class="UserEscapeTable"><tr>
+    <td class="UserEscapeCell">
+    <asp:LinkButton ID="LinkButton1" runat="server" CssClass="UserEscapeLink" OnClick="DefaultPage_Click"><%= Labels.DefaultPage%></asp:LinkButton></td>
+    <td class="UserEscapeCell"><asp:LinkButton ID="LogoutButton" runat="server" CssClass="UserEscapeLink" OnClick="Logout_Click"><%= Labels.Logout%></asp:LinkButton></td>
+    <td style="width: 30%" align="center"><a href="javascript:window.close()" class="UserEscapeLink"><%= Labels.Close %></a></td></tr></table>
+</asp:Content>

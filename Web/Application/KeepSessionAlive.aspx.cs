@@ -1,0 +1,49 @@
+#region License
+
+// Copyright (c) 2013, MatrixPACS Inc.
+// All rights reserved.
+// http://www.MatrixPACS.ca
+//
+// This file is part of the MatrixPACS RIS/PACS open source project.
+//
+// The MatrixPACS RIS/PACS open source project is free software: you can
+// redistribute it and/or modify it under the terms of the GNU General Public
+// License as published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// The MatrixPACS RIS/PACS open source project is distributed in the hope that it
+// will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+// Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// the MatrixPACS RIS/PACS open source project.  If not, see
+// <http://www.gnu.org/licenses/>.
+
+#endregion
+
+using System;
+using System.Web;
+using MatrixPACS.ImageServer.Web.Common.Security;
+
+namespace MatrixPACS.ImageServer.Web.Application
+{
+    public partial class KeepSessionAlive : System.Web.UI.Page
+    {
+
+		protected override void OnInit(EventArgs e)
+		{
+			base.OnInit(e);
+
+			SessionManager.RenewSession();
+		}
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            // make sure client won't cache this page or it won't actually update the session
+            Response.Cache.SetExpires(DateTime.UtcNow.AddMinutes(-1));
+            Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            Response.Cache.SetNoStore();
+        }
+    }
+}

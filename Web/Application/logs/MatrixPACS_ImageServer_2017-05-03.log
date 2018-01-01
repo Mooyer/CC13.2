@@ -1,0 +1,419 @@
+﻿2017-05-03 19:20:53,873 [1] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 19:20:53,898 [1] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 19:20:54,234 [53] INFO  -  Initializing SessionManager
+2017-05-03 19:20:59,917 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 19:20:59,932 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 19:21:13,714 [39] INFO  - Updating device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 : AETitle=carrehoo
+2017-05-03 19:21:13,718 [39] INFO  - I am here at device data adapter!!!
+2017-05-03 19:21:13,728 [39] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 19:21:13,730 [39] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 19:21:13,731 [39] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 19:21:13,731 [39] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 19:21:13,732 [39] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 19:21:13,732 [39] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 19:21:13,733 [39] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 19:21:13,733 [39] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 19:21:13,734 [39] ERROR - Exception thrown
+
+Unexpected exception with update: 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:21:13,737 [39] ERROR - Exception thrown
+
+Unexpected exception updating MatrixPACS.ImageServer.Model.Device
+MatrixPACS.Enterprise.Core.PersistenceException: Unexpected problem with update statement on table Device: 给定关键字不在字典中。 ---> System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Web.Common.Data.BaseAdaptor`4.Update(ServerEntityKey key, TColumns param) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Data\BaseAdaptor.cs:行号 175
+2017-05-03 19:21:13,739 [39] ERROR - Message: 给定关键字不在字典中。
+Extra Info: An unspecified error occurred.
+Source:mscorlib
+Stack Trace:   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:21:13,741 [39] ERROR - Unhandled exception: System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:21:13,742 [39] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:21:13,744 [39] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:21:14,366 [39] ERROR - Unhandled exception: 
+2017-05-03 19:21:14,366 [39] ERROR - 
+2017-05-03 19:49:16,545 [1] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 19:49:16,572 [1] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 19:49:16,926 [10] INFO  -  Initializing SessionManager
+2017-05-03 19:49:22,516 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 19:49:22,545 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 19:49:35,148 [12] INFO  - Updating device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 : AETitle=carrehoo,DefaultSCS=GB18031
+2017-05-03 19:49:35,156 [12] INFO  - I am here at device data adapter!!!
+2017-05-03 19:49:35,166 [12] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 19:49:35,168 [12] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 19:49:35,168 [12] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 19:49:35,169 [12] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 19:49:35,170 [12] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 19:49:35,170 [12] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 19:49:35,171 [12] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 19:49:35,171 [12] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 19:49:35,172 [12] ERROR - Exception thrown
+
+Unexpected exception with update: 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:49:35,175 [12] ERROR - Exception thrown
+
+Unexpected exception updating MatrixPACS.ImageServer.Model.Device
+MatrixPACS.Enterprise.Core.PersistenceException: Unexpected problem with update statement on table Device: 给定关键字不在字典中。 ---> System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Web.Common.Data.BaseAdaptor`4.Update(ServerEntityKey key, TColumns param) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Data\BaseAdaptor.cs:行号 175
+2017-05-03 19:49:35,177 [12] ERROR - Message: 给定关键字不在字典中。
+Extra Info: An unspecified error occurred.
+Source:mscorlib
+Stack Trace:   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:49:35,179 [12] ERROR - Unhandled exception: System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:49:35,180 [12] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:49:35,182 [12] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 19:49:35,842 [10] ERROR - Unhandled exception: 
+2017-05-03 19:49:35,843 [10] ERROR - 
+2017-05-03 20:03:29,929 [5] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 20:03:29,954 [5] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 20:03:30,299 [124] INFO  -  Initializing SessionManager
+2017-05-03 20:08:56,507 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 20:08:56,519 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 20:09:08,764 [107] INFO  - Updating device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 : AETitle=carrehoo,DefaultSCS=GB18031
+2017-05-03 20:09:08,769 [107] INFO  - I am here at device data adapter!!!
+2017-05-03 20:09:08,775 [107] INFO  - I am here at BaseAdaptor addr1!!!
+2017-05-03 20:09:08,783 [107] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 20:09:08,785 [107] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 20:09:08,786 [107] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 20:09:08,787 [107] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 20:09:08,788 [107] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 20:09:08,789 [107] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 20:09:08,789 [107] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 20:09:08,790 [107] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 20:09:08,791 [107] ERROR - Exception thrown
+
+Unexpected exception with update: 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:09:08,795 [107] ERROR - Exception thrown
+
+Unexpected exception updating MatrixPACS.ImageServer.Model.Device
+MatrixPACS.Enterprise.Core.PersistenceException: Unexpected problem with update statement on table Device: 给定关键字不在字典中。 ---> System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Web.Common.Data.BaseAdaptor`4.Update(ServerEntityKey key, TColumns param) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Data\BaseAdaptor.cs:行号 176
+2017-05-03 20:09:08,797 [107] ERROR - Message: 给定关键字不在字典中。
+Extra Info: An unspecified error occurred.
+Source:mscorlib
+Stack Trace:   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:09:08,799 [107] ERROR - Unhandled exception: System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:09:08,800 [107] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:09:08,802 [107] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:09:09,432 [100] ERROR - Unhandled exception: 
+2017-05-03 20:09:09,433 [100] ERROR - 
+
+#########################################################2017-05-03 20:41:02,174 [1] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 20:41:02,203 [1] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 20:41:02,561 [10] INFO  -  Initializing SessionManager
+2017-05-03 20:41:13,620 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 20:41:13,634 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 20:41:32,636 [10] INFO  - Updating device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 : AETitle=carrehoo,DefaultSCS=GB18031
+2017-05-03 20:41:32,639 [10] INFO  - I am here at device data adapter!!!
+2017-05-03 20:41:32,644 [10] INFO  - I am here at BaseAdaptor addr1!!!
+2017-05-03 20:41:32,646 [10] INFO  - Going to update keys and params:8db6c6fc-1897-4a17-8542-342c00bef2c5,MatrixPACS.ImageServer.Model.EntityBrokers.DeviceUpdateColumns!!!
+2017-05-03 20:41:32,652 [10] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 20:41:32,654 [10] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 20:41:32,655 [10] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 20:41:32,655 [10] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 20:41:32,656 [10] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 20:41:32,656 [10] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 20:41:32,657 [10] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 20:41:32,658 [10] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 20:41:32,658 [10] ERROR - Exception thrown
+
+Unexpected exception with update: 
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:41:32,663 [10] ERROR - Exception thrown
+
+Unexpected exception updating MatrixPACS.ImageServer.Model.Device
+MatrixPACS.Enterprise.Core.PersistenceException: Unexpected problem with update statement on table Device: 给定关键字不在字典中。 ---> System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Web.Common.Data.BaseAdaptor`4.Update(ServerEntityKey key, TColumns param) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Data\BaseAdaptor.cs:行号 176
+2017-05-03 20:41:32,665 [10] ERROR - Message: 给定关键字不在字典中。
+Extra Info: An unspecified error occurred.
+Source:mscorlib
+Stack Trace:   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:41:32,667 [10] ERROR - Unhandled exception: System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:41:32,668 [10] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:41:32,671 [10] ERROR - Exception thrown
+
+
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSetClause(SqlCommand command, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.GetUpdateSql(String entityName, SqlCommand command, ServerEntityKey key, EntityUpdateColumns parameters)
+   在 MatrixPACS.ImageServer.Enterprise.SqlServer.EntityBroker`3.Update(ServerEntityKey key, TUpdateColumns parameters)
+2017-05-03 20:41:33,303 [10] ERROR - Unhandled exception: 
+2017-05-03 20:41:33,304 [10] ERROR - 
+
+################################2017-05-03 20:57:37,673 [6] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 20:57:37,698 [6] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 20:57:38,036 [70] INFO  -  Initializing SessionManager
+2017-05-03 20:57:42,997 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 20:57:43,010 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 20:57:54,291 [57] INFO  - Updating device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 : AETitle=carrehoo,DefaultSCS=GB18031
+2017-05-03 20:57:54,299 [57] INFO  - I am here at device data adapter!!!
+2017-05-03 20:57:54,303 [57] INFO  - I am here at BaseAdaptor addr1!!!
+2017-05-03 20:57:54,305 [57] INFO  - Going to update keys and params:8db6c6fc-1897-4a17-8542-342c00bef2c5,System.Collections.Generic.Dictionary`2+ValueCollection[System.String,MatrixPACS.ImageServer.Enterprise.EntityColumnBase]!!!
+2017-05-03 20:57:54,310 [57] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 20:57:54,312 [57] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 20:57:54,312 [57] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 20:57:54,313 [57] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 20:57:54,313 [57] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 20:57:54,314 [57] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 20:57:54,314 [57] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 20:57:54,315 [57] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 20:57:54,315 [57] INFO  - The SQL command parm name is DefaultSCS.!!!
+2017-05-03 20:57:54,316 [57] INFO  - The SQL command parm name is AllowQuery.!!!
+2017-05-03 20:57:54,316 [57] INFO  - The SQL command parm name is AcceptKOPR.!!!
+2017-05-03 20:57:54,317 [57] INFO  - The SQL command parm name is AllowRetrieve.!!!
+2017-05-03 20:57:54,317 [57] INFO  - The SQL command parm name is AllowStorage.!!!
+2017-05-03 20:57:54,318 [57] INFO  - The SQL command parm name is AllowAutoRoute.!!!
+2017-05-03 20:57:54,318 [57] INFO  - The SQL command parm name is ThrottleMaxConnections.!!!
+2017-05-03 20:57:54,318 [57] INFO  - The SQL command parm name is DeviceTypeEnum.!!!
+2017-05-03 20:57:54,322 [57] INFO  - Device Key=8db6c6fc-1897-4a17-8542-342c00bef2c5 updated
+2017-05-03 20:59:56,281 [70] INFO  - Deleting carrehoo, Key=8db6c6fc-1897-4a17-8542-342c00bef2c5
+2017-05-03 20:59:56,297 [70] INFO  - Delete of carrehoo Successful
+2017-05-03 21:00:42,322 [70] INFO  - Adding new device : AETitle = Test123
+2017-05-03 21:00:42,339 [70] INFO  - New device added :AE=Test123, Key=b06aa9f9-0782-4504-8a48-3bf9ebecfb1a
+2017-05-03 21:11:49,430 [92] INFO  -  Initializing SessionManager
+2017-05-03 21:11:49,466 [92] INFO  - Terminate session because The current session is no longer valid.
+2017-05-03 21:11:49,467 [92] INFO  -    在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 MatrixPACS.ImageServer.Web.Common.Security.SessionManager.TerminateSession(String logMessage, String displayMessage) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\SessionManager.cs:行号 206
+   在 MatrixPACS.ImageServer.Web.Common.Security.CustomFormAuthenticationModule.AuthorizeRequest(Object sender, EventArgs e) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\CustomFormAuthenticationModule.cs:行号 110
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   在 System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   在 System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+2017-05-03 21:11:49,521 [89] INFO  - Terminate session because The current session is no longer valid.
+2017-05-03 21:11:49,523 [89] INFO  -    在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 MatrixPACS.ImageServer.Web.Common.Security.SessionManager.TerminateSession(String logMessage, String displayMessage) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\SessionManager.cs:行号 206
+   在 MatrixPACS.ImageServer.Web.Common.Security.CustomFormAuthenticationModule.AuthorizeRequest(Object sender, EventArgs e) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\CustomFormAuthenticationModule.cs:行号 110
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   在 System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   在 System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+2017-05-03 21:11:49,602 [87] INFO  - Terminate session because The current session is no longer valid.
+2017-05-03 21:11:49,605 [87] INFO  -    在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 MatrixPACS.ImageServer.Web.Common.Security.SessionManager.TerminateSession(String logMessage, String displayMessage) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\SessionManager.cs:行号 206
+   在 MatrixPACS.ImageServer.Web.Common.Security.CustomFormAuthenticationModule.AuthorizeRequest(Object sender, EventArgs e) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Common\Security\CustomFormAuthenticationModule.cs:行号 110
+   在 System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+   在 System.Web.HttpApplication.PipelineStepManager.ResumeSteps(Exception error)
+   在 System.Web.HttpApplication.BeginProcessRequestNotification(HttpContext context, AsyncCallback cb)
+   在 System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.UnsafeIISMethods.MgdIndicateCompletion(IntPtr pHandler, RequestNotificationStatus& notificationStatus)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotificationHelper(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+   在 System.Web.Hosting.PipelineRuntime.ProcessRequestNotification(IntPtr rootedObjectsPointer, IntPtr nativeRequestContext, IntPtr moduleData, Int32 flags)
+2017-05-03 21:11:56,248 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 21:11:56,259 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 21:18:56,407 [61] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 21:18:56,431 [61] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 21:18:56,795 [53] INFO  -  Initializing SessionManager
+2017-05-03 21:19:01,684 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 21:19:01,697 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 21:20:26,245 [15] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 21:20:26,270 [15] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 21:20:26,628 [35] INFO  -  Initializing SessionManager
+2017-05-03 21:20:31,797 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 21:20:31,808 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 21:27:26,127 [76] INFO  - Updating device Key=b06aa9f9-0782-4504-8a48-3bf9ebecfb1a : AETitle=Test123,DefaultSCS=GB18030
+2017-05-03 21:27:26,136 [76] INFO  - I am here at device data adapter!!!
+2017-05-03 21:27:26,148 [76] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 21:27:26,150 [76] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 21:27:26,151 [76] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 21:27:26,152 [76] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 21:27:26,152 [76] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 21:27:26,153 [76] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 21:27:26,154 [76] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 21:27:26,154 [76] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 21:27:26,155 [76] INFO  - The SQL command parm name is DefaultSCS.!!!
+2017-05-03 21:27:26,156 [76] INFO  - The SQL command parm name is AllowQuery.!!!
+2017-05-03 21:27:26,156 [76] INFO  - The SQL command parm name is AcceptKOPR.!!!
+2017-05-03 21:27:26,157 [76] INFO  - The SQL command parm name is AllowRetrieve.!!!
+2017-05-03 21:27:26,157 [76] INFO  - The SQL command parm name is AllowStorage.!!!
+2017-05-03 21:27:26,158 [76] INFO  - The SQL command parm name is AllowAutoRoute.!!!
+2017-05-03 21:27:26,158 [76] INFO  - The SQL command parm name is ThrottleMaxConnections.!!!
+2017-05-03 21:27:26,159 [76] INFO  - The SQL command parm name is DeviceTypeEnum.!!!
+2017-05-03 21:27:26,164 [76] INFO  - Device Key=b06aa9f9-0782-4504-8a48-3bf9ebecfb1a updated
+
+
+
+######################################################################
+2017-05-03 21:53:30,833 [1] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 21:53:30,860 [1] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 21:53:31,222 [10] INFO  -  Initializing SessionManager
+2017-05-03 21:53:37,628 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 21:53:37,642 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 22:04:41,795 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - Updating device Key=9109cf67-9a57-4d6a-a21a-aaeca009e3b5 : AETitle=wbinjie,DefaultSCS=ISO_IR 100
+2017-05-03 22:04:41,805 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - I am here at device data adapter!!!
+2017-05-03 22:04:41,820 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 22:04:41,824 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is ServerPartitionGUID.!!!
+2017-05-03 22:04:41,825 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is Enabled.!!!
+2017-05-03 22:04:41,826 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AeTitle.!!!
+2017-05-03 22:04:41,827 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is Description.!!!
+2017-05-03 22:04:41,828 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is Dhcp.!!!
+2017-05-03 22:04:41,829 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is IpAddress.!!!
+2017-05-03 22:04:41,830 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is Port.!!!
+2017-05-03 22:04:41,831 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is DefaultSCS.!!!
+2017-05-03 22:04:41,832 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AllowQuery.!!!
+2017-05-03 22:04:41,833 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AcceptKOPR.!!!
+2017-05-03 22:04:41,834 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AllowRetrieve.!!!
+2017-05-03 22:04:41,835 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AllowStorage.!!!
+2017-05-03 22:04:41,836 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is AllowAutoRoute.!!!
+2017-05-03 22:04:41,837 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is ThrottleMaxConnections.!!!
+2017-05-03 22:04:41,838 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The SQL command parm name is DeviceTypeEnum.!!!
+2017-05-03 22:04:41,845 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - Device Key=9109cf67-9a57-4d6a-a21a-aaeca009e3b5 updated
+2017-05-03 22:09:02,952 [59] ERROR - Failed to process plugin assembly MatrixPACS.Dicom.Codec.Jpeg.dll with the following exception(s):
+2017-05-03 22:09:02,977 [59] ERROR - 未能从程序集“MatrixPACS.Dicom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null”中加载类型“MatrixPACS.Dicom.Codec.Tests.AbstractCodecTest”。
+2017-05-03 22:09:03,316 [78] INFO  -  Initializing SessionManager
+2017-05-03 22:09:08,971 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - admin has successfully logged in.
+2017-05-03 22:09:08,983 [Web (@::1,InternetExplorer 11.0, User:Unknown)] INFO  - [ImageServer]: admin has successfully logged in.
+2017-05-03 22:09:30,333 [8] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 22:09:30,345 [8] INFO  - The SQL command parm name is Text.!!!
+2017-05-03 22:09:37,678 [78] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 22:09:37,681 [78] INFO  - The SQL command parm name is Text.!!!
+2017-05-03 22:09:46,179 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - I am here at PatientSummaryPannel.ascx addr1
+2017-05-03 22:09:46,183 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - The person name is Wang xue jun
+2017-05-03 22:10:05,016 [Web (@::1,InternetExplorer 11.0, User:admin)] INFO  - Work Queue item deleted by user : Item Key=421f4d4c-2041-4794-9e5b-d11a99d35ca6
+2017-05-03 22:10:05,019 [Web (@::1,InternetExplorer 11.0, User:admin)] ERROR - PreResetConfirmDialog_Confirmed: Unable to delete work queue item. GUID=421f4d4c-2041-4794-9e5b-d11a99d35ca6 :    在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 MatrixPACS.ImageServer.Web.Application.Pages.Queues.WorkQueue.Edit.Default.DeleteWorkQueueDialog_WorkQueueItemDeleted(WorkQueue item) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Application\Pages\Queues\WorkQueue\Edit\Default.aspx.cs:行号 159
+   在 MatrixPACS.ImageServer.Web.Application.Pages.Queues.WorkQueue.Edit.DeleteWorkQueueDialog.PreDeleteConfirmDialog_Confirmed(Object data) 位置 g:\CC\MatrixImage-0415\MatrixImage\ImageServer\Web\Application\Pages\Queues\WorkQueue\Edit\DeleteWorkQueueDialog.ascx.cs:行号 169
+2017-05-03 22:10:47,694 [31] INFO  - The propMap info is System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]. 
+2017-05-03 22:10:47,698 [31] INFO  - The SQL command parm name is Text.!!!

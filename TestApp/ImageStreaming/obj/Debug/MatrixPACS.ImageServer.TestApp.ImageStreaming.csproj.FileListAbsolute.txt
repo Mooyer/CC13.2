@@ -1,0 +1,13 @@
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\ImageStreaming.exe.config
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\ImageStreaming.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\ImageStreaming.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\MatrixPACS.Common.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\log4net.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\nunit.framework.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\bin\Debug\MatrixPACS.Common.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\MatrixPACS.ImageServer.TestApp.ImageStreaming.csprojResolveAssemblyReference.cache
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\ImageStreaming.Form1.resources
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\ImageStreaming.Properties.Resources.resources
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\MatrixPACS.ImageServer.TestApp.ImageStreaming.csproj.GenerateResource.Cache
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\ImageStreaming.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\ImageStreaming\obj\Debug\ImageStreaming.pdb

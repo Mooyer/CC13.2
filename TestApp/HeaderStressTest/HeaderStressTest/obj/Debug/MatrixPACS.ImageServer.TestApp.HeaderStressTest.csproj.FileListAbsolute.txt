@@ -1,0 +1,12 @@
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\HeaderStressTest.exe.config
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\HeaderStressTest.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\HeaderStressTest.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\MatrixPACS.Common.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\MatrixPACS.Dicom.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\log4net.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\nunit.framework.dll
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\MatrixPACS.Common.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\bin\Debug\MatrixPACS.Dicom.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\obj\Debug\MatrixPACS.ImageServer.TestApp.HeaderStressTest.csprojResolveAssemblyReference.cache
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\obj\Debug\HeaderStressTest.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\TestApp\HeaderStressTest\HeaderStressTest\obj\Debug\HeaderStressTest.pdb

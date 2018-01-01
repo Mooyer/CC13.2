@@ -1,0 +1,11 @@
+﻿<!-- 
+This rule instructs the server to auto-route Chest studies to MatrixPACS
+-->
+<rule>
+	<condition expressionLanguage="dicom">
+		<regex test="$StudyDescription" pattern="chest" />
+	</condition>
+	<action>
+		<study-auto-route device="MatrixPACS" />
+	</action>
+</rule>

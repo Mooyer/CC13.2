@@ -1,0 +1,81 @@
+<!-- 
+  Microsoft Visual Studio 2010 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkId=55111
+--><Project ToolsVersion="4.0" DefaultTargets="Build;AfterBuild" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <Choose>
+    <When Condition="$(DistributionBuild)">
+      <PropertyGroup>
+        <DeploymentOutputDir>$(DistributionDir)\Web</DeploymentOutputDir>
+      </PropertyGroup>
+    </When>
+    <Otherwise>
+      <PropertyGroup>
+        <DeploymentOutputDir>Output</DeploymentOutputDir>
+      </PropertyGroup>
+    </Otherwise>
+  </Choose>
+  
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77F5EB8A-9BC7-495C-B555-1DE6AF5AC83C}</ProjectGuid>
+    <SourceWebPhysicalPath>..\Application</SourceWebPhysicalPath>
+    <SourceWebProject>{2719FA07-F89A-4FE1-A497-5FA4CDD08956}|Application\MatrixPACS.ImageServer.Web.Application.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/MatrixPACS.ImageServer.Web.Application.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Any CPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\$(DeploymentOutputPath)</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>MatrixPACS.ImageServer.Web.Application.Deployment</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Any CPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>..\..\$(DeploymentOutputPath)</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>MatrixPACS.ImageServer.Web.Application.Deployment</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WebDeployment\v10.0\Microsoft.WebDeployment.targets"/>
+  <ItemGroup>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\.svn\**\*.*;$(SourceWebPhysicalPath)\**\.svn\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\*.pdb"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\*.bak"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\bin\*.xml"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\obj\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\*.csproj.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Old_App_Code"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Builds\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\logs\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\bin\MatrixPACS.Dicom.Codec.Jpeg.dll"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\bin\BilinearInterpolation.dll"/>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <WebConfigReplacementFiles Include="ConnectionStrings.config">
+      <Section>connectionStrings</Section>
+    </WebConfigReplacementFiles>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  -->
+  <Target Name="BeforeBuild">
+    <RemoveDir Directories="$(DeploymentOutputDir)"/>
+	</Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+    <Message Text="Cleaning up...."/>
+    <RemoveDir Directories="$(OutputPath)\obj;$(OutputPath)\Builds;$(OutputPath)\Old_App_Code;$(OutputPath)\Properties"/>
+    <RemoveDir Directories="Source;TempBuildDir"/>
+    <Copy SourceFiles="@(IncludeInDeployment)" DestinationFolder="$(DeploymentOutputDir)\bin" SkipUnchangedFiles="false" />
+  </Target>
+</Project>

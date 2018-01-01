@@ -1,0 +1,17 @@
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.ImageServer.Common.dll.config
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.ImageServer.Common.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.ImageServer.Common.pdb
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.Common.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.Dicom.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.Enterprise.Common.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\nunit.framework.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\log4net.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\Castle.Core.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\Castle.DynamicProxy2.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.Dicom.pdb
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\bin\Release\MatrixPACS.Enterprise.Common.pdb
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\obj\Release\MatrixPACS.ImageServer.Common.csprojResolveAssemblyReference.cache
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\obj\Release\MatrixPACS.ImageServer.Common.ExternalRequest.SR.resources
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\obj\Release\MatrixPACS.ImageServer.Common.csproj.GenerateResource.Cache
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\obj\Release\MatrixPACS.ImageServer.Common.dll
+F:\大连医卫\MatrixPACS0308\ImageServer\Common\obj\Release\MatrixPACS.ImageServer.Common.pdb

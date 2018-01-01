@@ -1,0 +1,11 @@
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\WADOClient.exe.config
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\WADOClient.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\WADOClient.pdb
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\MatrixPACS.Common.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\MatrixPACS.Dicom.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\log4net.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\nunit.framework.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\bin\Release\MatrixPACS.Dicom.pdb
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\obj\Release\MatrixPACS.ImageServer.TestApp.WADOClient.csprojResolveAssemblyReference.cache
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\obj\Release\WADOClient.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\WADOClient\obj\Release\WADOClient.pdb

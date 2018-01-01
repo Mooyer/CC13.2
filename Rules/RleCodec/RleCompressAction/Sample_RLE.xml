@@ -1,0 +1,17 @@
+﻿<!-- 
+This rule instructs the server to use RLE compression
+on US and CR studies.
+-->
+<rule>
+	<condition expressionLanguage="dicom">
+		<!-- MR Spectroscopy SOP Class has no pixel data -->
+		<not-equal test="$SopClassUid" refValue="1.2.840.10008.5.1.4.1.1.4.2"/>
+		<or>
+			<equal test="$Modality"  refValue="US" />
+			<equal test="$Modality"  refValue="CR" />
+		</or>
+	</condition>
+	<action>
+	  <rle time="10" unit="weeks" convertFromPalette="true"/>
+	</action>
+</rule>

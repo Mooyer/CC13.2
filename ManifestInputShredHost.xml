@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ManifestInput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.MatrixPACS.ca">
+  <Files>
+    <File name="MatrixPACS.ImageServer.Executable.exe" checksum="true" />
+    <File name="MatrixPACS.ImageServer.Executable.exe.config" config="true" />
+    <File name="MatrixPACS.ImageServer.Executable.exe.critical.config" checksum="true" config="true" />
+    <File name="MatrixPACS.ImageServer.ShredHostService.exe" checksum="true" />
+    <File name="MatrixPACS.ImageServer.ShredHostService.exe.config" config="true" />
+    <File name="MatrixPACS.ImageServer.ShredHostService.exe.critical.config" checksum="true" config="true" />
+    
+    <File name="Logging.config" ignore="true" />
+    <File name="logs\" ignore="true" />
+    <File name="manifest\" ignore="true" />
+    <File name="common\Castle.Core.dll" checksum="true" />
+    <File name="common\Castle.DynamicProxy2.dll" checksum="true" />
+    <File name="common\MatrixPACS.Common.dll" checksum="true" />
+    <File name="common\MatrixPACS.Server.ShredHost.dll" checksum="true" />
+    <File name="common\Iesi.Collections.dll" checksum="true" />
+    <File name="common\log4net.dll" checksum="true" />
+    <File name="common\nunit.framework.dll" checksum="true" />
+    <File name="plugins\MatrixPACS.Utilities.Manifest.dll" checksum="true" />
+    <File name="plugins\MatrixPACS.JScript.dll" checksum="true" />
+  </Files>
+	
+</ManifestInput>

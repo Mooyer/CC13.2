@@ -1,0 +1,25 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="ShredHostService\bin\Debug\common\MatrixPACS.Dicom.dll" />
+    <assembly path="ShredHostService\bin\Debug\common\MatrixPACS.Common.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.Dicom.Codec.Jpeg.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.Dicom.Codec.Rle.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.Enterprise.Common.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.Enterprise.Core.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Common.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Core.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Enterprise.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Rules.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.Archiving.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.Archiving.Hsm.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.Common.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.Dicom.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.Streaming.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.ServiceLock.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Services.WorkQueue.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.ImageServer.Utilities.dll" />
+    <assembly path="ShredHostService\bin\Debug\plugins\MatrixPACS.Utilities.Manifest.dll" />
+  </Config>
+  <Config name="Release" binpathtype="Auto" />
+</NUnitProject>

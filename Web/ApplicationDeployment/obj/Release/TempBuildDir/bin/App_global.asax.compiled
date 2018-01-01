@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/MatrixPACS.ImageServer.Web.Application.csproj/global.asax" hash="2d7170fc" filehash="ffffdd78e6eb41d2" flags="150000" assembly="MatrixPACS.ImageServer.Web.Application.Deployment" type="ASP.global_asax">
+  <filedeps>
+    <filedep name="/MatrixPACS.ImageServer.Web.Application.csproj/global.asax" />
+  </filedeps>
+</preserve>

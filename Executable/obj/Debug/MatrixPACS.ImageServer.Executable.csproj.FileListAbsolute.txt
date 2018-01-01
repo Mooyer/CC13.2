@@ -1,0 +1,8 @@
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\Executable\bin\Debug\MatrixPACS.ImageServer.Executable.exe.config
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\Executable\bin\Debug\MatrixPACS.ImageServer.Executable.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\Executable\bin\Debug\MatrixPACS.ImageServer.Executable.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\Executable\obj\Debug\MatrixPACS.ImageServer.Executable.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\Executable\obj\Debug\MatrixPACS.ImageServer.Executable.pdb
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\Executable\bin\Debug\MatrixPACS.ImageServer.Executable.exe.config
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\Executable\obj\Debug\MatrixPACS.ImageServer.Executable.exe
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\Executable\obj\Debug\MatrixPACS.ImageServer.Executable.pdb

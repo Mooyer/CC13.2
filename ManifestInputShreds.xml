@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ManifestInput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.MatrixPACS.ca">
+	
+  <!-- List of files distributed in ImageServerShreds.targets -->
+  <Files>
+	  <File name="common\ICSharpCode.SharpZipLib.dll" checksum="true" />
+		  
+	  <File name="plugins\MatrixPACS.Dicom.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Model.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.Dicom.Codec.Jpeg.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.Dicom.Codec.Rle.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.Enterprise.Common.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.Enterprise.Core.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Common.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Core.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Core.SharpZipLib.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Enterprise.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Enterprise.SqlServer.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Model.SqlServer.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Rules.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Rules.JpegCodec.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Rules.RleCodec.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.Common.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.Archiving.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.Archiving.Hsm.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.Dicom.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.ServiceLock.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.Streaming.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Services.WorkQueue.dll" checksum="true" />
+	  <File name="plugins\MatrixPACS.ImageServer.Utilities.dll" checksum="true" />
+  </Files>
+</ManifestInput>

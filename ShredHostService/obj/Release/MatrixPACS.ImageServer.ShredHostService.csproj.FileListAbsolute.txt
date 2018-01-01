@@ -1,0 +1,2 @@
+G:\CC\MatrixPACS\MatrixPACS0818\MatrixPACS0518\MatrixPACS0514\ImageServer\ShredHostService\bin\Release\MatrixPACS.ImageServer.ShredHostService.exe.config
+G:\CC\MatrixPACS\MatrixPACS0818\ImageServer\ShredHostService\bin\Release\MatrixPACS.ImageServer.ShredHostService.exe.config

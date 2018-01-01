@@ -1,0 +1,11 @@
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\StreamingClientConsole.exe.config
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\StreamingClientConsole.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\StreamingClientConsole.pdb
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\MatrixPACS.Common.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\MatrixPACS.Dicom.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\log4net.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\nunit.framework.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\bin\Release\MatrixPACS.Dicom.pdb
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\obj\Release\MatrixPACS.ImageServer.TestApp.StreamingClientConsole.csprojResolveAssemblyReference.cache
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\obj\Release\StreamingClientConsole.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\StreamingClientConsole\obj\Release\StreamingClientConsole.pdb

@@ -1,0 +1,11 @@
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\bin\Release\ImageStreaming.exe.config
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\bin\Release\ImageStreaming.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\bin\Release\ImageStreaming.pdb
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\bin\Release\MatrixPACS.Common.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\bin\Release\log4net.dll
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\MatrixPACS.ImageServer.TestApp.ImageStreaming.csprojResolveAssemblyReference.cache
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\ImageStreaming.Form1.resources
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\ImageStreaming.Properties.Resources.resources
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\MatrixPACS.ImageServer.TestApp.ImageStreaming.csproj.GenerateResource.Cache
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\ImageStreaming.exe
+G:\CC\MatrixPACS0514-0\MatrixPACS0514\ImageServer\TestApp\ImageStreaming\obj\Release\ImageStreaming.pdb

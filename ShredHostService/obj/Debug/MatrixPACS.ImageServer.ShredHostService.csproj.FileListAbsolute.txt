@@ -1,0 +1,10 @@
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\bin\Debug\MatrixPACS.ImageServer.ShredHostService.exe.config
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\bin\Debug\App.config
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\bin\Debug\MatrixPACS.ImageServer.ShredHostService.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\bin\Debug\MatrixPACS.ImageServer.ShredHostService.pdb
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\obj\Debug\MatrixPACS.ImageServer.ShredHostService.csprojResolveAssemblyReference.cache
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\obj\Debug\MatrixPACS.ImageServer.ShredHostService.exe
+F:\大连医卫合作项目\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\obj\Debug\MatrixPACS.ImageServer.ShredHostService.pdb
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\bin\Debug\MatrixPACS.ImageServer.ShredHostService.exe.config
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\obj\Debug\MatrixPACS.ImageServer.ShredHostService.exe
+F:\大连医卫\13.2\MatrixPACS-13.2\ImageServer\ShredHostService\obj\Debug\MatrixPACS.ImageServer.ShredHostService.pdb
